@@ -2,6 +2,16 @@
 	margin: 0;
 	padding: 0;
 }
+input[type="text"], input[type="password"], input[type="search"] {
+	color: #5d5d5d;
+	wight: 60%;
+	padding: 8px;
+}
+input, textarea {
+ outline: none;
+ border: none;
+ dorder: solid 1px #f2f2f2; 
+}
 
 .header {
 	background-color: darkslateblue;
@@ -67,5 +77,31 @@ ul.menu li.selected a{
 ul.menu li a:hover {
 	color: #e4ec04;
 }
-1
-2
+.site_content{
+	width: 880px;
+	overflow: hidden;
+	margin: 20px auto 0 auto;
+	background-color: white;
+}
+.sidebar_conteiner{
+	float: right;
+	widht: 224px;
+}
+
+
+.sidebar{
+	float: right;
+	width: 222px;
+	padding: 5%;
+	margin: 0 0 16px 0;
+	border: solid 5px #f2f2f2;
+	border-radius: 10px;
+	background-color: #f9f9f9;
+
+}
+
+.btn {
+	padding: 8px;
+	background-color: white;
+	cursor: pointer;
+}
