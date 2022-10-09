@@ -2,17 +2,31 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	font-size: 1.2em; 
+	background-color: #fff;
+	color: #555;
+	
+}
+p {
+	padding: 0 0 20px;
+	line-height: 1.7em;
+
+}
+
+
+
+
 input[type="text"], input[type="password"], input[type="search"] {
 	color: #5d5d5d;
-	wight: 60%;
+	width: 60%;
 	padding: 8px;
 }
 input, textarea {
  outline: none;
  border: none;
- dorder: solid 1px #f2f2f2; 
+ border: solid 1px #f2f2f2; 
 }
-
 .header {
 	background-color: darkslateblue;
 	height: 177px;
@@ -21,6 +35,40 @@ input, textarea {
 	margin-right: 0px;
 	min-width: 900px;
 }
+
+a , a:hover{
+	outline: none;
+	text-decoration: underline;
+	color: #aeb002;
+}
+ul {
+	margin: 2px 0 22px 17px;
+
+}
+ul li{
+	margin: 0 0 6px 0;
+	pading: 0 0 4px 5px;
+	line-height: 1.5em;
+}
+
+
+
+h1 {
+	font: normal 170% 'century  gothic ' , arial ;
+	margin : 0 0 15px 0 ;
+	padding: 15px 0 5px 0;
+	color : #000;
+
+}
+h2 {
+	font: normal 100% 'century  gothic ' , arial ;
+	margin : 0 0 15px 0 ;
+	padding: 15px 0 5px 0;
+	color : #000;
+
+}
+
+
 .main, .logo, .menubar, .site_content , .footer {
 
 	margin-left: auto;
@@ -38,7 +86,7 @@ input, textarea {
 } 
  .logo_text h1, .logo_text h1 a , .logo_text h1 a:hover {
    padding : 22px 0 0 0 ;	
-   color f### ;
+   color: #fff ;
    letter-spacing: 0.1em ;
    text-decoration: none;
    }
@@ -52,7 +100,7 @@ input, textarea {
  	height: 46px;
  }
  ul.menu {
-  float: righr ; 
+  float: right ; 
  }
  ul.menu li {
    float: left;
@@ -63,7 +111,7 @@ input, textarea {
  }
 ul.menu li a {
 	font: normal: 100% 'trebuchet ms', sans-serif;
-	displey: block;
+	display: block;
 	height: 20px;
 	padding: 6px 35px 5px 28px;
 	color: #fff;
@@ -85,7 +133,7 @@ ul.menu li a:hover {
 }
 .sidebar_conteiner{
 	float: right;
-	widht: 224px;
+	width: 224px;
 }
 
 
@@ -104,4 +152,22 @@ ul.menu li a:hover {
 	padding: 8px;
 	background-color: white;
 	cursor: pointer;
+}
+.sidebar h2 {
+	color: #136cb2;
+}
+
+
+.lables_passreg_text{
+	font-size:0.7em;
+	margin-top: 3%;
+	margin-left: 2%;
+}
+.sidebar ul li {
+	list-style-type: none;
+	margin: 0 0 0 0 ;
+
+}
+.sidebar .rating_sidebar {
+	float: right;
 }
