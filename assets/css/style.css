@@ -125,6 +125,9 @@ ul.menu li.selected a{
 ul.menu li a:hover {
 	color: #e4ec04;
 }
+hr{
+	border: solid 1px #f3f3f3;
+}
 .site_content{
 	width: 880px;
 	overflow: hidden;
@@ -170,6 +173,28 @@ ul.menu li a:hover {
 }
 .sidebar .rating_sidebar {
 	float: right;
+}
+.content {
+	text-align: left;
+	width: 620px;
+	padding: 0 0 15px;
+	float: left;
+}
+.content a {
+	text-decoration: none;
+}
+.films_block{
+	margin-bottom: 5%;
+}
+.films_block img {
+border-radius: 5px;
+border: solid 5px #dad7d5;
+width: 22%;
+}
+
+.posts .posts_content {
+	font-size: 0.8em;
+
 }
 
 .footer{
